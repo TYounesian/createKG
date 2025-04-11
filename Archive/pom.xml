@@ -20,29 +20,29 @@
             <artifactId>owlapi-distribution</artifactId>
             <version>5.1.20</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>net.sourceforge.owlapi</groupId>
             <artifactId>org.semanticweb.hermit</artifactId>
             <version>1.4.5.519</version>
-        </dependency>
-        <dependency>
+        </dependency>-->
+        <!--<dependency>
             <groupId>org.semanticweb.elk</groupId>
             <artifactId>elk-owlapi</artifactId>
             <version>0.4.3</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>de.tu-dresden.inf.lat.evee</groupId>
-            <artifactId>evee-elk-proof-extractor-owlapi4</artifactId>
-            <version>0.4-SNAPSHOT</version>
+            <artifactId>evee-elk-proof-extractor-owlapi5</artifactId>
+            <version>0.3</version>
             <exclusions>
-                <exclusion>
+                <!--<exclusion>
                     <groupId>io.github.liveontologies</groupId>
                     <artifactId>elk-owlapi</artifactId>
                 </exclusion>
                 <exclusion>
                     <groupId>net.sourceforge.owlapi</groupId>
                     <artifactId>owlapi-distribution</artifactId>
-                </exclusion>
+                </exclusion>-->
             </exclusions>
         </dependency>
 
